@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    display: flex;
+    color: white;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(88, 83, 83);
+    height: 120vh;
+}
+
+.menu-container p {
+    margin: 0.25em;
+}
+
+.menu-container input{
+    width: 8em;
+    height: 2em;
+    margin: 0.5em;
+}
+
+.menu-container button {
+    width: 6em;
+    height: 2.5em;
+    background-color: rgb(245, 213, 30);
+    margin: 0.5em;
+    border-radius: 3px;
+}
+
+.sub-container {
+    display: flex;
+}
+
+#min {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#max {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+main{
+    background-color: grey;
+    width: 100%;
+}
+
+#main-text {
+    text-align: center;
+    margin: 1em;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    font-size: small;
+    gap: 1em;
+    margin: 2em;
+    margin-top: 0.5em;
+}
+
+.main-container div{
+    width: 16em;
+    height: 24em;
+    border: solid 1px white;
+    border-radius: 9px;
+}
+
+img {
+    width: 99%;
+    height: 160px;
+    border-radius: 9px;
+}
+
+.button-card {
+    width: 65px;
+    height: 35px;
+    margin: 0.5em;
+    border-radius: 3px;
+    background-color: rgb(44, 167, 224);
+}
